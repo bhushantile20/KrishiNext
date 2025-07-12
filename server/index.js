@@ -16,7 +16,7 @@ const ai = require("./routes/ai.js");
 const auth = require("./routes/auth");
 const payment = require("./routes/payment"); 
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5000;
 const app = express();
 
 // app.use(cors({
