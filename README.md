@@ -1,10 +1,10 @@
 # KrishiNext
 
-CropConnect is a web platform designed for wholesale crop trading, connecting sellers and consumers seamlessly. Although still in development, CropConnect offers a robust set of features for both sellers and consumers in the agricultural marketplace.
+KrishiNext is a web platform designed for wholesale crop trading, connecting sellers and consumers seamlessly. Although still in development, KrishiNext offers a robust set of features for both sellers and consumers in the agricultural marketplace.
 
 ## Deployed Link
 
-https://crop-connect-lime.vercel.app/
+
 
 ## Architecture
 
@@ -105,11 +105,6 @@ To run CropConnect locally, ensure you have NodeJS and MongoDB installed. Follow
         node index.js
         ```
 
-By following these steps, you'll have the CropConnect application running locally on your machine. Adjust configurations as needed for your development environment.
-
-## Contribution
-
-CropConnect welcomes contributions from the community. Feel free to open issues or submit pull requests to help improve the platform.
+By following these steps, you'll have the KrishiNext application running locally on your machine. Adjust configurations as needed for your development environment.
 
 
-**If you find this project helpful, we'd appreciate it if you could give it a star ⭐.**
