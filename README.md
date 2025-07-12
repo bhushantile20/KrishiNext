@@ -7,7 +7,6 @@ KrishiNext is a web platform designed for wholesale crop trading, connecting sel
 
 
 ## Architecture
-
 ![diagram-export-8-15-2024-7_52_30-PM](https://github.com/user-attachments/assets/6587f476-8c76-4232-9ea5-5988ff6f3624)
 
 ## Features
