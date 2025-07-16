@@ -5,6 +5,8 @@ KrishiNext is a dynamic web platform built for wholesale crop trading, aiming to
 Coming soon...
 (Note: Some features like real-time WebSocket updates are not supported on Vercel. For full functionality, run the project locally.)
 
+  <img width="1911" height="989" alt="1" src="https://github.com/user-attachments/assets/36124717-5768-4b0e-b0b4-fa4a178dd6d2" />
+
 🧱 Architecture
 <img width="940" height="990" alt="image" src="https://github.com/user-attachments/assets/fd57d940-9342-4827-9e70-f316350502e0" />
 
