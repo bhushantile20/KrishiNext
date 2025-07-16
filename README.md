@@ -91,7 +91,7 @@ Add the following to client/.env:
 plaintext
 Copy
 Edit
-VITE_CROPCONNECT_API=https://cropconnect-backend.vercel.app/
+VITE_CROPCONNECT_API=https://krishiNext-backend.vercel.app/
 # Use http://localhost:8080/ if running backend locally
 Start the frontend:
 
