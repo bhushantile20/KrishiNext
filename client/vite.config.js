@@ -8,10 +8,24 @@
 // })
 
 
-import { defineConfig } from "vite";
-import mkcert from "vite-plugin-mkcert";
+// import { defineConfig } from "vite";
+// import mkcert from "vite-plugin-mkcert";
+
+// export default defineConfig({
+//   server: { https: true },
+//   plugins: [mkcert()],
+// });
+
+import { defineConfig } from 'vite';
+import mkcert from 'vite-plugin-mkcert';
 
 export default defineConfig({
-  server: { https: true },
   plugins: [mkcert()],
+  build: {
+    outDir: 'dist', // <-- This is required for the publish directory
+  },
+  server: {
+    https: true, // for local only
+  },
 });
+
