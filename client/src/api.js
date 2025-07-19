@@ -1,6 +1,7 @@
-const API_BASE = "https://krishinext-4.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL;
 
-// Example fetch
-fetch(`${API_BASE}/api/your-endpoint`)
-  .then(res => res.json())
-  .then(data => console.log(data));
+export const fetchProducts = async () => {
+  const response = await fetch(`${API_BASE_URL}/api/products`);
+  if (!response.ok) throw new Error("Failed to fetch products");
+  return response.json();
+};
