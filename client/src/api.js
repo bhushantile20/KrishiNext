@@ -5,3 +5,15 @@ export const fetchProducts = async () => {
   if (!response.ok) throw new Error("Failed to fetch products");
   return response.json();
 };
+
+export const signupUser = async (userData) => {
+  const response = await fetch(`${BASE_URL}/auth/user/signup`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(userData),
+  });
+  if (!response.ok) {
+    throw new Error("Signup failed");
+  }
+  return await response.json();
+};
