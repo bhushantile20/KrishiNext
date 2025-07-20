@@ -19,11 +19,11 @@ const payment = require("./routes/payment");
 const PORT = process.env.PORT || 5000;
 const app = express();
 
-app.use(cors({
-  origin:["https://localhost:5173", "https://krishinext-axk9.onrender.com", "https://krishinext-1-pxz5.onrender.com
-"],
-  credentials:true
-}));
+// app.use(cors({
+//   origin:["https://localhost:5173", "https://krishinext-axk9.onrender.com", "https://krishinext-1-pxz5.onrender.com
+// "],
+//   credentials:true
+// }));
 
 // app.use(cors({
 //   origin:["https://localhost:5173", "https://crop-connect-lime.vercel.app", "https://crop-connect-git-dev-deepaksgithubs-projects.vercel.app"],
@@ -31,10 +31,10 @@ app.use(cors({
 // }));
 
 
-// app.use(cors({
-//   origin: "*",
-//   credentials: true
-// }));
+app.use(cors({
+  origin: "*",
+  credentials: true
+}));
 
 app.use(express.json());
 
