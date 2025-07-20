@@ -80,6 +80,8 @@ function LoginAndSignup() {
                   value={formData.contact}
                   setFormData={setFormData}
                   toUpdate={"contact"}
+                  maxLen={10}
+                  minLen={10}
                 />
 
                 {/* For Seller Specific */}
@@ -139,10 +141,14 @@ function LoginAndSignup() {
 
             {isSignInForm ? (
               <div className="text-xs font-medium text-rose-600">
-                {/* *In case you don't want to create an account, you can use the
+                *In case you don't want to create an account, you can use the
                 following credentials to login: <br />
-                Email: jaloh53056@jahsec.com <br />
-                Password: 12345678 */}
+                For User:
+                Email: bhushantile2003@gmail.com <br />
+                Password: User@1234 <br />
+                For Seller:
+                Email: btgroup107@gmail.com <br />
+                Password: Saler@1234 <br />
               </div>
             ) : (
               <div className="text-xs font-medium text-rose-600">

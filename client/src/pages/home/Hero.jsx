@@ -15,7 +15,8 @@ function Hero() {
         <div className="z-10 absolute mx-auto max-w-screen-xl lg:px-24 px-4 sm:px-6 top-[50%] -translate-y-[50%]">
           <div className="max-w-xl text-center sm:text-left">
             <h1 className="text-3xl font-bold md:text-5xl text-black">
-              <b className="text-green-400">K</b>rushi<b className="text-green-500">N</b>ext
+              <b className="text-green-400">K</b>rishi
+              <b className="text-green-500">N</b>ext
             </h1>
 
             <p className="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
@@ -27,7 +28,7 @@ function Hero() {
         <div
           className="relative w-full h-full"
           style={{
-            backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.25)), url(${src})`,
+            backgroundImage: `linear-gradient(to right, rgba(255, 255, 255, 0.50), rgba(255, 255, 255, 0.25)), url(${src})`,
             filter: blur ? "blur(20px)" : "none",
             // backgroundImage: `url(${src})`,
             backgroundSize: "cover",
