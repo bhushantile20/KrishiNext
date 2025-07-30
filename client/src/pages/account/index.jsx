@@ -148,7 +148,7 @@ function LoginAndSignup() {
                 Password: User@1234 <br />
                 For Seller:
                 Email: btgroup107@gmail.com <br />
-                Password: Saler@1234 <br />
+                Password: Saller@1234 <br />
               </div>
             ) : (
               <div className="text-xs font-medium text-rose-600">
