@@ -2,16 +2,17 @@
 
 KrishiNext is a web platform designed for wholesale crop trading, connecting sellers and consumers seamlessly. Although still in development, KrishiNext offers a robust set of features for both sellers and consumers in the agricultural marketplace.
 
+KrishiNext empowers Indian farmers by giving them direct access to wholesale buyers, eliminating middlemen, increasing profits, and bringing digital transformation to rural agriculture.
+
 ## Deployed Link
 
+## KrishiNext Architecture
+<img width="940" height="989" alt="image" src="https://github.com/user-attachments/assets/bb9013fd-fcaa-4b17-8fe0-e5d665859620" />
 
-
-## Architecture
-![diagram-export-8-15-2024-7_52_30-PM](https://github.com/user-attachments/assets/6587f476-8c76-4232-9ea5-5988ff6f3624)
 
 ## Features
 
-1. **Dual Interfaces**: CropConnect provides separate interfaces for consumers and sellers, accessible through the navbar with options for SignUp and SignIn including email verification for the created account.
+1. **Dual Interfaces**: KrishiNext provides two separate interfaces for consumers and sellers, with secure SignUp and SignIn functionality, including email verification.
 
 ***Seller Side***
 
@@ -57,53 +58,28 @@ KrishiNext is a web platform designed for wholesale crop trading, connecting sel
 - Gemini AI
 - Other supporting technologies
 
-## Installation
+## KrishiNext: 
+<img width="1893" height="996" alt="image" src="https://github.com/user-attachments/assets/5a598dc4-3d59-4afb-8b4a-55d6d36b67bf" />
 
-To run CropConnect locally, ensure you have NodeJS and MongoDB installed. Follow these steps:
+<img width="1900" height="980" alt="image" src="https://github.com/user-attachments/assets/4832dc72-604f-4907-9a62-addd1afb12b6" />
 
-1. **Clone the repository**:
-    ```bash
-    git clone <repository-url>
-    cd CropConnect
-    ```
+<img width="1907" height="999" alt="image" src="https://github.com/user-attachments/assets/f116b5e1-8936-4bd9-8016-a68e9aa228b6" />
 
-2. **Frontend Setup**:
-    - Navigate to the CropConnect `client` folder.
-    - Create a `.env` file in the root directory of the `client` folder.
-    - Add the following environment variables to the client `.env` file:
-        ```plaintext
-        VITE_CROPCONNECT_API = "https://cropconnect-backend.vercel.app/" 
-        # Replace if you want to run the Backend local server to http://localhost:8080/
-        ```
-    - To run the Frontend:
-        ```bash
-        cd client
-        npm run dev
-        ```
+<img width="1902" height="992" alt="image" src="https://github.com/user-attachments/assets/bd390fdb-d771-445a-8687-ecca0901502b" />
 
-3. **Backend Setup**:
-    - Navigate to the CropConnect `server` folder.
-    - Create a `.env` file in the root directory of the `server` folder.
-    - Add the following environment variables to the server `.env` file:
-        ```plaintext
-        MONGO_DB_URL = {your mongodb url}
-        GEMINI_API_KEY = {your gemini api key}
-        GMAIL_ID = {your gmail id}
-        APP_PASSWORD = {your google account app password}
-        JWT_SECRET = {jwt secret}
-        CLOUDINARY_CLOUD_NAME = {cloudinary clound name}
-        CLOUDINARY_API_KEY = {cloudinary api key}
-        CLOUDINARY_API_SECRET = {cloudinary api secret}
-        ```
-    - To run the Backend:
-        ```bash
-        # Use nodemon for automatic server restarts upon file changes
-        nodemon
-        # or
-        # Run the server with NodeJS
-        node index.js
-        ```
+<img width="1908" height="979" alt="image" src="https://github.com/user-attachments/assets/b9752914-e157-4aa1-a17f-ce9c80804e33" />
 
-By following these steps, you'll have the KrishiNext application running locally on your machine. Adjust configurations as needed for your development environment.
+<img width="1919" height="982" alt="image" src="https://github.com/user-attachments/assets/2d969499-c8fe-4359-a592-1f5a874e65ea" />
+
+<img width="1919" height="980" alt="image" src="https://github.com/user-attachments/assets/e9418687-771a-4470-a94c-0b15a9e89547" />
+
+<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/96da5aa2-4772-45c4-b6da-58adf199d857" />
+
+<img width="1919" height="974" alt="image" src="https://github.com/user-attachments/assets/f28eef21-2d7d-4dfd-b306-044e4dcf25b8" />
+
+
+
+
+
 
 
