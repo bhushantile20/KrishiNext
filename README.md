@@ -7,7 +7,7 @@ KrishiNext empowers Indian farmers by giving them direct access to wholesale buy
 ## Deployed Link
 
 ## KrishiNext Architecture
-<img width="940" height="989" alt="image" src="https://github.com/user-attachments/assets/bb9013fd-fcaa-4b17-8fe0-e5d665859620" />
+<img width="940" height="998" alt="image" src="https://github.com/user-attachments/assets/59db4108-a995-4f33-a983-41e8a354b219" />
 
 
 ## Features
